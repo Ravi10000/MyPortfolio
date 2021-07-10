@@ -175,8 +175,8 @@ section {
 }
 
 .hire-me {
-  margin-top: 5em;
-  font-size: 1.5em;
+  margin-top: 2em;
+  font-size: 1em;
   font-weight: bold;
 }
 
@@ -185,6 +185,9 @@ section {
 }
 
 @media screen and (min-width: 800px) {
+  .hire-me {
+    margin-top: 5em;
+  }
   .featured {
     text-align: left;
     display: -ms-grid;
